@@ -1,3 +1,26 @@
 .article_longform {
   padding: 0;
 }
+/* To make tablet form of the site */
+
+@media (min-width: 768px){
+
+/* To make the article into table two column */
+.section_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section_container article:first-of-type{
+  grid-column: 1
+}
+
+.section_container article:last-of-type{
+  grid-column: 2;
+}
+
+.section_pagination {
+ margin-inline-start: 32rem;
+}
+
+}
