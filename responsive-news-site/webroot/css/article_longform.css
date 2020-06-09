@@ -45,16 +45,24 @@
 }
 
 #section_happening_now{
- display: block;
+ margin-inline-start: 4rem;
+ margin-inline-end: 4rem;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ column-gap: 1rem;
 }
+#section_happening_now .article_card{
+  grid-column-start: span 2;
+}
+#section_happening_now .article_simple{
+  margin: 16px;
+
+}
+
 #section_happening_now article:nth-of-type(5){
   display: none;
 }
 
-
-#section_happening_now .article_simple{
-
-}
 
 
 }
