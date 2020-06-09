@@ -58,3 +58,31 @@ body > footer a {
   justify-content: space-between;
   max-width: 8.5rem;
 }
+@media (min-width: 768px){
+
+
+  .link_primary {
+    display: block;
+    grid-column: 2;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  .links_site{
+    margin-block-start: 0;
+  }
+  .links_site{
+  columns: 3;
+  }
+
+
+.links_social{
+  grid-column: 2;
+  grid-row: 2;
+  align-self: end;
+  margin-inline-start: 13rem;
+}
+
+}
