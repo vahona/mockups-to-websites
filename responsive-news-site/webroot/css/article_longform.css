@@ -9,6 +9,7 @@
 .section_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
 }
 
 .section_container article:first-of-type{
@@ -26,16 +27,34 @@
   grid-column: 2;
 }
 /* Treanding section. */
+#section_happening_now {
+  margin-block-start: -21.5rem;
+}
+.section_trending article:nth-of-type(1){
+
+}
 
 .article_swatch{
   margin: 16px;
 }
 #section_trending .article_swatch:last-of-type {
- visibility: hidden;
+ display: none;
+ padding-inline-start: 2rem;
+ padding-inline-end: 2rem;
+
 }
 
 #section_happening_now{
  display: block;
 }
+#section_happening_now article:nth-of-type(5){
+  display: none;
+}
+
+
+#section_happening_now .article_simple{
+
+}
+
 
 }
