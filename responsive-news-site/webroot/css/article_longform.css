@@ -22,5 +22,20 @@
 .section_pagination {
  margin-inline-start: 32rem;
 }
+.a11y{
+  grid-column: 2;
+}
+/* Treanding section. */
+
+.article_swatch{
+  margin: 16px;
+}
+#section_trending .article_swatch:last-of-type {
+ visibility: hidden;
+}
+
+#section_happening_now{
+ display: block;
+}
 
 }
