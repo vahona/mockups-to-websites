@@ -68,6 +68,7 @@ body > footer a {
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
 
   }
   .links_site{
@@ -84,5 +85,6 @@ body > footer a {
   align-self: end;
   margin-inline-start: 13rem;
 }
+
 
 }
