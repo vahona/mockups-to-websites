@@ -56,9 +56,15 @@
   .form_subscribe label{
     text-transform: lowercase;
     color: rgb(206, 202, 202);
+    position: absolute;
+    margin-inline-start: 16px;
+    margin-block-start: 8px
   }
 
   .form_row .subscribe_email{
 
+  }
+  .form_subscribe button{
+   margin-block-start: -16px;
   }
 }
