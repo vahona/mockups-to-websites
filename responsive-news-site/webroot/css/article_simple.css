@@ -37,3 +37,10 @@
   order: 3;
   color: #A6ADB4;
 }
+@media (min-width : 768px){
+  .article_simple .article_image {
+
+    height: calc((100vw - 3rem) / 4);
+
+  }
+}
