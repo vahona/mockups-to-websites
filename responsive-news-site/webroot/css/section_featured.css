@@ -22,3 +22,17 @@
 #section_featured footer {
   display: none;
 }
+@media (min-width:1000px){
+  #section_featured{
+    display: flex;
+  }
+  #section_featured article{
+
+
+
+  }
+  #section_featured header{
+    margin-block-start: 2rem;
+  }
+
+}

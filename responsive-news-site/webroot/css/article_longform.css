@@ -8,10 +8,11 @@
 /* To make the article into table two column */
 .section_container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 16px;
-
 }
+
+
 #section_more_news > header {
   grid-column-start: span 2;
 }
@@ -118,10 +119,29 @@
 
   /* Trending */
   #section_trending{
-    grid-column-start: span 3;
-  }
-  #section_trending article:last-of-type{
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: span 3;
 
+
+
+
+  }
+
+  #section_trending .article_swatch:last-of-type,
+  #section_trending .article_swatch:last-of-type .article_image{
+    display: block;
+    grid-column: 3;
+
+  }
+  #section_trending .article_swatch:last-of-type .article_image{
+
+
+  }
+  #section_happening_now article:nth-of-type(5),
+  #section_happening_now article:nth-of-type(5) .article_image{
+    display: block;
+  }
+  #section_happening_now article:nth-of-type(5) .article_image{
 
   }
 }
